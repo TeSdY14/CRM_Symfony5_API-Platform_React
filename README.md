@@ -11,18 +11,21 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 
 > ## Commands init
 > ```
-> git clone
+> git clone https://github.com/TeSdY14/CRM_Symfony5_API-Platform_React.git crm-symfony-react
 > ```
 > ```
-> composer update
+> cd crm-symfony-react
+> ```
+> ```
+> composer install
 > ```
 > ```
 > yarn install
 > ```
 > ```
-> symfony server:start | (php bin/console server:start)
+> symfony server:start | php -S localhost:8000 -t public/
 > ```
-> Ouvrir navigateur (http://127.0.0.1:8000 [par défaut])
+> Ouvrir navigateur (adresse par défaut : http://127.0.0.1:8000 | http://localhost:8000)
 >
 > Resultat : `Affichage de la page d'index de Symfony`
 
@@ -42,4 +45,18 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > Charger des Fixtures (données bidons pour la base) 
 > ```
 > php bin/console doctrine:fixtures:load [--no-interaction]
+> ```
+
+> ## Accès à l'API 
+> Installer API-Platform
+> ```
+>  composer require api
+> ```
+> Optionnel : Activer le TLS (protocol HTTPS)
+> ```
+>  symfony server:ca:install
+> ```
+> Accéder à API-Platform :
+> ```
+> https://127.0.0.1:8000/api
 > ```

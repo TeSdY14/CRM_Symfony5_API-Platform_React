@@ -54,3 +54,4 @@
 /.idea
 /tests
 /nodes_modules
+/migrations
