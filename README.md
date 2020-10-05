@@ -21,3 +21,7 @@ yarn install
 ```
 symfony server:start | (php bin/console server:start)
 ```
+
+> Load Fixtures 
+> 
+> ```php bin/console doctrine:fixtures:load ```
