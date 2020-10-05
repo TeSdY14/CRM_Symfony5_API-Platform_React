@@ -22,8 +22,24 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 > symfony server:start | (php bin/console server:start)
 > ```
+> Ouvrir navigateur (http://127.0.0.1:8000 [par défaut]) 
+> Resultat : 
+> Affichage de la page d'index de Symfony 
 
-> Load Fixtures 
+> Database : (NB : configurer fichier .env avec Database Info avant d'éxécuter les commandes suivantes)
+> ```
+> php bin/console doctrine:database:create
+> ```
+> ```
+> php bin/console make:migration
+> ```
+> ```
+> php bin/console doctiner:migrations:migrate
+> ```
+> Resultat : 
+> Base de données créée avec les tables 
+
+> Charger des Fixtures (données bidons pour la base) 
 > ```
 > php bin/console doctrine:fixtures:load
 > ```
