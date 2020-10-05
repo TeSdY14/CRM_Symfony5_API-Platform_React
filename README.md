@@ -31,12 +31,17 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 
 > ## Database 
 > *(NB : configurer fichier .env avec les informations de connexion avant d'éxécuter les commandes suivantes)*
+> Créer la base de données 
 > ```
 > php bin/console doctrine:database:create
 > ```
+> Création d'un fichier de description du schéma de la base (Requêtes CREATE|ALTER|DROP TABLE)
 > ```
 > php bin/console make:migration
 > ```
+> Attention, en cas d'erreur : "_Cannot load migrations from "Path:\to\project\crm-symfony-react/migrations" because it is not a valid directory_", créer manuellement le repertoire **migrations/** ou modifier les droits du repertoire projet) 
+>
+> Exécuter les requêtes de changement du schéma de la base (Création/Modification/Suppression/ des tables)
 > ```
 > php bin/console doctrine:migrations:migrate
 > ```
