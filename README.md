@@ -34,7 +34,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > php bin/console make:migration
 > ```
 > ```
-> php bin/console doctiner:migrations:migrate
+> php bin/console doctrine:migrations:migrate
 > ```
 > Resultat : `Base de données créée avec les tables` 
 
