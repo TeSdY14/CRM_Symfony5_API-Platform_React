@@ -9,6 +9,8 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > * npm: 6.14.8
 > * React: 16.13.1
 
+> Commands init
+
 ```
 git clone
 ```
