@@ -31,6 +31,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 
 > ## Database 
 > *(NB : configurer fichier .env avec les informations de connexion avant d'éxécuter les commandes suivantes)*
+> 
 > Créer la base de données 
 > ```
 > php bin/console doctrine:database:create
