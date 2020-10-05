@@ -48,6 +48,10 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 
 > ## Accès à l'API 
+> Installer API-Platform
+> ```
+>  composer require api
+> ```
 > Optionnel : Activer le TLS (protocol HTTPS)
 > ```
 >  symfony server:ca:install
