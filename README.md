@@ -43,3 +43,12 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 > php bin/console doctrine:fixtures:load [--no-interaction]
 > ```
+
+> ## Accès à l'API 
+> Optionnel : Activer le TLS (protocol HTTPS)
+> ```
+>  symfony server:ca:install
+> ```
+> Accéder à API-Platform :
+> https://127.0.0.1:8000/api
+> ```
