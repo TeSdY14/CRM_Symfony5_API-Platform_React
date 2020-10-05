@@ -24,9 +24,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 > Ouvrir navigateur (http://127.0.0.1:8000 [par défaut])
 
-> Resultat : 
-
-> Affichage de la page d'index de Symfony 
+> Resultat : `Affichage de la page d'index de Symfony`
 
 > Database : (NB : configurer fichier .env avec Database Info avant d'éxécuter les commandes suivantes)
 > ```
@@ -38,8 +36,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 > php bin/console doctiner:migrations:migrate
 > ```
-> Resultat : 
-> Base de données créée avec les tables 
+> Resultat : `Base de données créée avec les tables` 
 
 > Charger des Fixtures (données bidons pour la base) 
 > ```
