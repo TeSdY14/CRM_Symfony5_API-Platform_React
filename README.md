@@ -54,7 +54,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 
 > ## Accès à l'API 
-> Installer API-Platform
+> (Normalement INUTILE car déjà installé =>) Installer API-Platform
 > ```
 >  composer require api
 > ```
