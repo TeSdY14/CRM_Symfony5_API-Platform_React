@@ -26,7 +26,8 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 >
 > Resultat : `Affichage de la page d'index de Symfony`
 
-> # Database : (NB : configurer fichier .env avec les informations de connexion avant d'éxécuter les commandes suivantes)
+> # Database : 
+> *(NB : configurer fichier .env avec les informations de connexion avant d'éxécuter les commandes suivantes)*
 > ```
 > php bin/console doctrine:database:create
 > ```
