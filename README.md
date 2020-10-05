@@ -23,9 +23,9 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > yarn install
 > ```
 > ```
-> symfony server:start
+> symfony server:start | php -S localhost:8000 -t public/
 > ```
-> Ouvrir navigateur (adresse par défaut : http://127.0.0.1:8000)
+> Ouvrir navigateur (adresse par défaut : http://127.0.0.1:8000 | http://localhost:8000)
 >
 > Resultat : `Affichage de la page d'index de Symfony`
 
