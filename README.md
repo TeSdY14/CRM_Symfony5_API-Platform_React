@@ -22,8 +22,10 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > ```
 > symfony server:start | (php bin/console server:start)
 > ```
-> Ouvrir navigateur (http://127.0.0.1:8000 [par défaut]) 
+> Ouvrir navigateur (http://127.0.0.1:8000 [par défaut])
+
 > Resultat : 
+
 > Affichage de la page d'index de Symfony 
 
 > Database : (NB : configurer fichier .env avec Database Info avant d'éxécuter les commandes suivantes)
