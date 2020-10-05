@@ -10,21 +10,20 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > * React: 16.13.1
 
 > Commands init
-
-```
-git clone
-```
-```
-composer update
-```
-```
-yarn install
-```
-```
-symfony server:start | (php bin/console server:start)
-```
+> ```
+> git clone
+> ```
+> ```
+> composer update
+> ```
+> ```
+> yarn install
+> ```
+> ```
+> symfony server:start | (php bin/console server:start)
+> ```
 
 > Load Fixtures 
-```
-php bin/console doctrine:fixtures:load
-```
+> ```
+> php bin/console doctrine:fixtures:load
+> ```
