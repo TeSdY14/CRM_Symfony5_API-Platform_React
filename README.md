@@ -50,5 +50,6 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 >  symfony server:ca:install
 > ```
 > Accéder à API-Platform :
+> ```
 > https://127.0.0.1:8000/api
 > ```
