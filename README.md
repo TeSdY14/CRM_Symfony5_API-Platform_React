@@ -2,14 +2,14 @@
 
 Petite application Type CRM avec Symfony 5, API Platform et React
 
-> # Versions utilisées :
+> ## Versions utilisées
 > * php: 7.3.12
 > * composer: 1.10.13
 > * node: 12.8.3
 > * npm: 6.14.8
 > * React: 16.13.1
 
-> # Commands init
+> ## Commands init
 > ```
 > git clone
 > ```
@@ -26,7 +26,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 >
 > Resultat : `Affichage de la page d'index de Symfony`
 
-> # Database : 
+> ## Database 
 > *(NB : configurer fichier .env avec les informations de connexion avant d'éxécuter les commandes suivantes)*
 > ```
 > php bin/console doctrine:database:create
