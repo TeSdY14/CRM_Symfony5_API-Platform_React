@@ -23,7 +23,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > yarn install
 > ```
 > ```
-> symfony server:start | (php bin/console server:start)
+> symfony server:start
 > ```
 > Ouvrir navigateur (adresse par défaut : http://127.0.0.1:8000)
 >
