@@ -41,5 +41,5 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 >
 > Charger des Fixtures (données bidons pour la base) 
 > ```
-> php bin/console doctrine:fixtures:load
+> php bin/console doctrine:fixtures:load [--no-interaction]
 > ```
