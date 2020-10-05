@@ -14,7 +14,7 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 > git clone
 > ```
 > ```
-> composer update
+> composer install
 > ```
 > ```
 > yarn install
