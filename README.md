@@ -11,7 +11,10 @@ Petite application Type CRM avec Symfony 5, API Platform et React
 
 > ## Commands init
 > ```
-> git clone https://github.com/TeSdY14/CRM_Symfony5_API-Platform_React.git
+> git clone https://github.com/TeSdY14/CRM_Symfony5_API-Platform_React.git crm-symfony-react
+> ```
+> ```
+> cd crm-symfony-react
 > ```
 > ```
 > composer install
